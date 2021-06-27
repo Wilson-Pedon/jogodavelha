@@ -14,6 +14,8 @@ let venceu = [
   [2,4,6],
 ]
 
+console.log("teste");
+
 function movimentoDoJogador(position){
 
   
