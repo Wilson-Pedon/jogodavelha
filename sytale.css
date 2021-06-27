@@ -1,0 +1,57 @@
+body{
+  text-align: center;
+  background-color: black;
+}
+
+h1{
+  color: white;
+}
+
+.quadrado{
+  width: 150px;
+  height: 150px;
+  background-color: cornsilk;
+  border: 1px solid gray;
+  display: inline-block;
+}
+
+
+.o{
+  position: relative;
+}
+
+.o::after{
+  position: absolute;
+  content:"O";
+  font-size: 100px;
+  line-height: 150px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.x{
+  position: relative;
+}
+
+.x::after{
+  position: absolute;
+  content:"X";
+  font-size: 100px;
+  line-height: 150px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+button{
+  width: 200px;
+  height: 25px;
+  background-color: white;
+  padding: none;
+  font-family: fantasy;
+  font-size: 17px;
+  
+}
